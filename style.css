@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'avenir-next';
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/Avenir-Next.ttc') format('opentype');
+}
+
+@font-face {
+    font-family: 'gibson';
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/Gibson.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'gibson-light';
+    font-weight: lighter;
+    font-style: normal;
+    src: url('fonts/Gibson-Light.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'ia-duo';
+    src: url('fonts/iAWriterDuoV.ttf');
+}
+
+@font-face {
+    font-family: 'ia-duo';
+    font-weight: bold;
+    src: url('fonts/iAWriterDuoS-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'ia-quattro';
+    font-weight: regular;
+    src: url('fonts/iAWriterQuattroS-Regular.ttf');
+}
+
+
+body {
+    margin-top: 3%;
+    background-color: rgba(250,250,250,.25) !important;
+    color: rgba(34, 34, 34, 0.8);
+    font-weight: regular;
+    font-family: "ia-duo", "gibson", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: inherit;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 250%;
+    margin-bottom: 5%;
+}
+
+p {
+
+}
+
+img.silly{
+    width: 75%;
+}
+
+img {
+    width: 100%;
+}
