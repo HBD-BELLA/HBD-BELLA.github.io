@@ -39,7 +39,7 @@
 
 body {
     margin-top: 3%;
-    background-color: rgba(250,250,250,.25) !important;
+    background-color: rgba(253,253,253) !important;
     color: rgba(34, 34, 34, 0.8);
     font-weight: regular;
     font-family: "ia-duo", "gibson", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -52,8 +52,8 @@ h1 {
     margin-bottom: 5%;
 }
 
-p {
-
+.hbd-message {
+    padding-top: 5%;
 }
 
 img.silly{
@@ -62,4 +62,23 @@ img.silly{
 
 img {
     width: 100%;
+}
+
+div.hbd-img {
+
+}
+
+.hbd-letter {
+    text-align: center;
+}
+
+div.hbd-content > img {
+
+}
+
+.card-body {
+    min-width: 40%;
+    margin-right: 5px;
+    border: transparent;
+    text-align: center;
 }
