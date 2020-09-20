@@ -76,8 +76,3 @@ div.hbd-content > img {
 
 }
 
-.card-body {
-    min-width: 40% !important;
-    border: transparent !important;
-    text-align: center !important;
-}
